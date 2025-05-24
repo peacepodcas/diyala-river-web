@@ -20,7 +20,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'arabic': ['KoHo', 'Inter', 'sans-serif'],
+				'arabic': ['Cairo', 'Inter', 'sans-serif'],
 				'sans': ['Inter', 'sans-serif'],
 			},
 			colors: {
