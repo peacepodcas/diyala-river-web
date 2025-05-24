@@ -38,14 +38,18 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50" dir="rtl">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 font-arabic" dir="rtl">
       {/* Header */}
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4 space-x-reverse">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-blue-600 rounded-full flex items-center justify-center">
-                <Globe className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center p-1">
+                <img 
+                  src="/lovable-uploads/ee5bd73e-721f-49bf-bc5b-73ceaa12d38d.png" 
+                  alt="شعار مؤسسة نهر ديالى" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-800">مؤسسة نهر ديالى للتنمية المستدامة</h1>
